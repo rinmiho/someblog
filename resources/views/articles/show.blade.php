@@ -27,7 +27,7 @@
 		<a href={{route('articles.edit', $article->id) }} class="btn btn-primary">
 			<span class="glyphicon glyphicon-edit"></span> Update
 		</a>
-
+{{--comment--}}
 		{{-- Delete button in the form with delete method --}}
 		{!! Form::open(['url' => route('articles.destroy', $article->id),
 						'method' => 'delete',
