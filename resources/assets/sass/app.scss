@@ -1,0 +1,63 @@
+@import 'pages/home';
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+// Variables
+@import "variables";
+// Bootstrap
+@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+
+body {
+  background-color: #101010;
+  font-family: "Raleway";
+}
+
+.container-fluid {
+  background-color: #101010;
+  margin: 0px;
+  padding: 20px;
+}
+
+.container-fluid h1 {
+  color: #ec971f;
+}
+
+.comments-section ul{
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+ul.comments-list {
+  margin: 0px;
+  padding: 0px;
+}
+
+ul.children {
+  margin-left: 60px;
+}
+
+.addCommentsForm {
+  display: none;
+}
+
+.comment-photo {
+  width: 60px;
+}
+.profile-photo {
+  width: 160px;
+}
+
+.page_footer {
+  background-color: #101010;
+  color: #fcf8e3;
+}
+
+.footer_list{
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+._social {
+  display: inline;
+}
